@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+$Yellow: hsl(51, 100%, 49%);
+/* (graphic design text) */
+$DarkDesaturatedCyan: #25564b;
+/* (photography text) */
+$DarkBlue: hsl(198, 62%, 26%);
+/*  (footer) */
+$DarkModerateCyan: hsl(168, 34%, 41%);
+
+$VeryDarkDesaturatedBlue: hsl(212, 27%, 19%);
+$VeryDarkGrayishBlue: hsl(213, 9%, 39%);
+$DarkGrayishBlue: hsl(232, 10%, 55%);
+$GrayishBlue: hsl(210, 4%, 67%);
+$White: hsl(0, 0%, 100%);
+
+$Barlow: "Outfit";
+$Fraunces: "Fraunces";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    background-color: #3e9681;
+    padding: 5px;
+}
+
+.attribution a {
+    color: #203b36;
+}
